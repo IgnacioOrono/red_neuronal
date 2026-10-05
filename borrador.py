@@ -37,13 +37,6 @@ for num_capa in range(len(red_neuronal)):
 # Entrenamiento de la red neuronal
 # para entrenar una red neuronal tenemos que saber cuanto falló: usamos el MSE(error cuadrático medio) esto seria nuestra funcion de coste.
 
-from random import shuffle
-
-Y = [0] * 10 + [1] * 10 
-shuffle(Y)
-Y = np.array(Y).reshape(len(Y),1)
-
-print (mse(output[-1], Y)[0])
 
 # Backpropagation y gradient descent
 
