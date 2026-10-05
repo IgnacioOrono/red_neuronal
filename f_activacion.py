@@ -1,3 +1,7 @@
+# Se utilizarán ambas funciones.
+# La función sigmoide nos va a servir para la ultima capa ya que nos permitira decidir la probabilidad de un estado.
+# La función relu es mas sencilla y se aplicará en todas las capas anteriores.
+
 import numpy as np
 import math
 import matplotlib.pyplot as plt
