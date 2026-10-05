@@ -1,5 +1,5 @@
 from scipy import stats
-from numpy import np
+import numpy as np   
 
 class capa():
     def __init__(self, n_neuronas_capa_anterior, n_neuronas, funcion_act):
